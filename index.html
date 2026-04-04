@@ -1,4 +1,4 @@
-index.HTML
+index.html
 
 <!DOCTYPE html>
 <html>
@@ -23,6 +23,11 @@ h2{
     text-align: center;
 }
 
+.container{
+max-width: 1000px;
+margin: auto;
+}
+
 
 .profile-image{
 float: right;
@@ -33,15 +38,25 @@ margin-left: 20px;
 width: 150px;
 height: auto;
 border-radius: 15px;
-border: 2px solid grey
+border: 3px solid grey;
 }
 
 nav{
 background-color: rgb(120, 115, 146);
 border-radius: 20px;
 padding: 15px;
+text-align: center;
+font-weight: bold;
 }
 
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
 
 footer{
 text-align: center;
@@ -49,10 +64,12 @@ margin-top: 20px;
 }
 
 .box {
-background-color: rgba(255, 255, 255, 0.7);
+background-color: rgba(255, 255, 255, 0.5);
 padding: 15px;
 border-radius: 20px;
 margin-bottom: 15px;
+margin-top:15px;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
 .info-box {
@@ -70,14 +87,14 @@ display: inline-block;
 
 <h1> BIOGRAPHY </h1>
 
-<center>
+
 <nav> 
 <a href = "index.html"> BIOGRAPHY </a> |
 <a href = "qualifications.html"> QUALIFICATIONS</a>|
 <a href = "Hobbies.html">HOBBIES </a>|
 <a href = "form.html"> CONTACT FORM </a>
 </nav>
-</center>
+
 
 
 <hr>
@@ -104,7 +121,7 @@ display: inline-block;
 <br>
 <div class="box">
 <p>
-I am currenty a student of the univeristy of the west indies pursing a undergraduate's degree in industrial engieering. I am interested in Database system architecture and engineering, Discreate event systems simulation and data analysis.
+I am currently a student of the university of the west indies pursing a undergraduate's degree in industrial engineering. I am interested in Database system architecture and engineering, Discreate event systems simulation and data analysis.
 My goal is to be able  to develop effiicent systems that impove productivity, desison making and increase optimization of operations.
 </p>
 </div>
@@ -115,16 +132,16 @@ My goal is to be able  to develop effiicent systems that impove productivity, de
 <div class="box">
 <br>
 <ul>
-<li>-Database design</li>
-<li>-SQL</li>
-<li>-Power BI</li>
-<li>-advanced Excell</li>
-<li>-simul8</li>
-<li>-work study analysis</li>
-<li>-Operations analysis</li>
-<li>-Product devlopment and costing</li>
-<li>-Project Mangement</li>
-<li>-Operations Mangement</li>
+<li>Database design</li>
+<li>SQL</li>
+<li>Power BI</li>
+<li>advanced Excell</li>
+<li>simul8</li>
+<li>work study analysis</li>
+<li>Operations analysis</li>
+<li>Product devlopment and costing</li>
+<li>Project Mangement</li>
+<li>Operations Mangement</li>
 </ul>
 
 </div>
@@ -137,12 +154,20 @@ My goal is to be able  to develop effiicent systems that impove productivity, de
 <p><b>Phone Number:</b> 868-682-8308
 <hr>
 <div class="box">
-<a href = "form.html"> EMPLOYEER CONTACT FORM </a>
+<a href = "form.html"><b>EMPLOYEER CONTACT FORM</b> </a>
 </div>
  <hr>   
 </p>
 </center>
 
+<nav> 
+<a href = "index.html"> | BIOGRAPHY </a> |
+<a href = "qualifications.html"> QUALIFICATIONS</a>|
+<a href = "Hobbies.html">HOBBIES </a>|
+<a href = "form.html"> CONTACT FORM </a>|
+</nav>
+
+<hr>
 
 <footer>
 <p>created by Andrew Ramnath | Industrial Engineering Student</p>
